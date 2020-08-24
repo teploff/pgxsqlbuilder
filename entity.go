@@ -13,6 +13,6 @@ func NewField(name string, value interface{}) *Field {
 }
 
 type Query struct {
-	sql    string
-	values []interface{}
+	SQL    string
+	Values []interface{}
 }

@@ -56,8 +56,8 @@ func (u *UpdateBuilder) Build() (*Query, error) {
 	}
 
 	return &Query{
-		sql:    "UPDATE " + u.tableName + " SET " + setArea + " WHERE " + whereArea,
-		values: values,
+		SQL:    "UPDATE " + u.tableName + " SET " + setArea + " WHERE " + whereArea,
+		Values: values,
 	}, nil
 }
 
