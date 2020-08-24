@@ -5,7 +5,7 @@ type Field struct {
 	value interface{}
 }
 
-func NewFiled(name string, value interface{}) *Field {
+func NewField(name string, value interface{}) *Field {
 	return &Field{
 		name:  name,
 		value: value,
